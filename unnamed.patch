@@ -1,9 +1,0 @@
-Index: now.py
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- now.py	(date 1579091035479)
-+++ now.py	(date 1579091035479)
-@@ -0,0 +1,1 @@
-+print("nihao")
