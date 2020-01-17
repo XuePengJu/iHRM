@@ -14,7 +14,8 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLogin))
 
 # 定义测试报告路径
-report_path = "./report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+# report_path = "./report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report_path = "./report/report.html"
 
 # 打开文件流
 
