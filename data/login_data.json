@@ -1,0 +1,34 @@
+[
+  {
+    "desc": "登录成功测试数据",
+    "username": "13012345678",
+    "password": "123456",
+    "verify_code": "8888",
+    "yzm_code": 200,
+    "login_code": 200,
+    "status": 1,
+    "msg": "登陆成功"
+  },
+    {
+    "desc": "账号不存在测试数据",
+    "username": "13012345698",
+    "password": "123456",
+    "verify_code": "8888",
+    "yzm_code": 200,
+    "login_code": 200,
+    "status": -1,
+    "msg": "账号不存在"
+  },
+  {
+    "desc": "密码错误测试数据",
+    "username": "13012345678",
+    "password": "error",
+    "verify_code": "8888",
+    "yzm_code": 200,
+    "login_code": 200,
+    "status": -2,
+    "msg": "密码错误"
+  }
+
+
+]
